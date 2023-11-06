@@ -19,18 +19,18 @@ class Program
                             double s = CalculateArea(storona1, storona2, storona3);
                             Console.WriteLine($"Площадь треугольника: {s}");
                         }
-                            else if (storona1 == storona2 || storona1 == storona3 || storona2 == storona3)
-                            {
-                                Console.WriteLine("Равнобедренный треугольник");
-                                double s = CalculateArea(storona1, storona2, storona3);
-                                Console.WriteLine($"Площадь треугольника: {s}");
-                            }
-                                else
-                                {
-                                    Console.WriteLine("Разносторонний треугольник");
-                                    double s = CalculateArea(storona1, storona2, storona3);
-                                    Console.WriteLine($"Площадь треугольника: {s}");
-                                }
+                        else if (storona1 == storona2 || storona1 == storona3 || storona2 == storona3)
+                        {
+                            Console.WriteLine("Равнобедренный треугольник");
+                            double s = CalculateArea(storona1, storona2, storona3);
+                            Console.WriteLine($"Площадь треугольника: {s}");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Разносторонний треугольник");
+                            double s = CalculateArea(storona1, storona2, storona3);
+                            Console.WriteLine($"Площадь треугольника: {s}");
+                        }
                                 
                     }
                     else
